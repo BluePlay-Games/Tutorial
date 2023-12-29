@@ -75,7 +75,7 @@ GitHub Desktop example (File > Clone Repository):
 
 ![Select My Own Purposes](READMEmedia/gh_desktop_myownpurposes_img.png)
 
-5. It  will now have created a directory with the cloned repository in it. If you are on Windows and following along using Git CLI, we recommend opening the directory via the command line to get used to the CLI.
+5. It  will now have created a directory with the cloned repository in it. If you are on Windows and following along using Git CLI, we recommend opening the directory via the command line to get used to the CLI. You can do this by using "explorer" as if it were a command.
 
 ![Open Explorer through the CLI](READMEmedia/git_cli_switchdir.png)
 
