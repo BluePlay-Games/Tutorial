@@ -9,8 +9,9 @@ MAKE SURE YOU INSTALL THE .NET VERSION <BR>
 - Go through the install wizard.
 # To contribute
 On the repository you would like to contribute to, follow these steps.
-- Click the button above the code, and right next to the thing that says main, that says _ Branch(es) and click "New Branch"<br>
-EVEN IF THIS IS NOT YOUR FIRST TIME, IF YOU USE AN EXISTING BRANCH THERE MAY BE UNWANTED CHANGES.
+- If this is your first time, Click the button above the code, and right next to the thing that says main, that says _ Branch(es) and click "New Branch"<br>
+- If this is your second time, Click the _ Branch(es) button, and under your branches click a branch. If it says "_ Commits behind" Click that, and create pull request, go to pull requests tab, and merge the pull request.
+<B> If it says "_ Commits ahead, that branch can not be used. Follow "If this is your first time."
 - Reload the page.
 - Under "Your Branches", click the branch you just made.
 - Now, if this is not a game, you can simply edit it with the pencil button.
