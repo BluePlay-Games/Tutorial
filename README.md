@@ -82,5 +82,5 @@ Once you import the folder into godot, hit CTRL+S.
 2. Add all files to the commit with "git add --all".
 3. Actually do the commit with "git commit -m <commit message here>".
 4. Push the commit with "git push". (This step will make the commits appear on GitHub)
-![Git Add Commit Push](git_add_commit_push.png)
+![Git Add Commit Push](READMEmedia/git_add_commit_push.png)
 - Back on GitHub, open a pull request.
