@@ -80,7 +80,9 @@ Once you import the folder into godot, hit CTRL+S.
 - Once you are done editing the game, use GitHub Desktop or the Git CLI to push your changes to your fork. Here is a tutorial for Git CLI:
 1. Change to the directory that the repository is in with the "CD" command. (The equivalent of double-clicking a folder in explorer)
 2. Add all files to the commit with "git add --all".
-3. Actually do the commit with "git commit -m <commit message here>".
+3. Actually do the commit with "git commit -m [commit message here]".
 4. Push the commit with "git push". (This step will make the commits appear on GitHub)
 ![Git Add Commit Push](READMEmedia/git_add_commit_push.png)
+5. BONUS: if you make a change on GitHub, it will not let you push until you update the cloned repository. Type "git pull" to do this.
+6. BONUS BONUS: if you need to make an empty commit, type "git commit -m [commit message here] --allow-empty" instead of "git commit -m [commit message here]".
 - Back on GitHub, open a pull request.
