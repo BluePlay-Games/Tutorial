@@ -74,7 +74,7 @@ Now that you've cloned the repository, open it in Godot:
 2. Click Import
 ![import button](READMEmedia/godot_import.png)
 3. Select the folder containing the repository you cloned. (Of course, normally you would select a godot game instead of a README)
-![Opening the folder in Godot](READMEmedia/godot_opening_repository.png)
+![Opening the folder in Godot](READMEmedia/godot_opening_repository_img.png)
 
 Once you import the folder into godot, hit CTRL+S.
 - Once you are done editing the game, use GitHub Desktop or the Git CLI to push your changes to your fork. Here is a tutorial for Git CLI:
