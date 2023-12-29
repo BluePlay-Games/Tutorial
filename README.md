@@ -8,6 +8,6 @@ MAKE SURE YOU INSTALL THE .NET VERSION <BR>
 - Install from https://dotnet.microsoft.com/en-us/download/dotnet/6.0 <BR>MAKE SURE TO DOWNLOAD 6.X, NOT ANYTHING ELSE<BR>
 # To contribute
 On the repository you would like to contribute to, follow these steps.
-- Click Braches, and add branch
+- Click Braches, and add branch<br>
 EVEN IF THIS IS YOUR FIRST TIME, IF YOU USE AN EXISTING BRANCH THERE MAY BE UNWANTED CHANGES.
 - Now, making sure you are in the branches menu
