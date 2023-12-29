@@ -10,7 +10,7 @@ MAKE SURE YOU INSTALL THE .NET VERSION <BR>
 # To contribute
 On the repository you would like to contribute to, follow these steps.
 - Click the button above the code, and right next to the thing that says main, that says _ Branch(es) and click "New Branch"<br>
-EVEN IF THIS IS YOUR FIRST TIME, IF YOU USE AN EXISTING BRANCH THERE MAY BE UNWANTED CHANGES.
+EVEN IF THIS IS NOT YOUR FIRST TIME, IF YOU USE AN EXISTING BRANCH THERE MAY BE UNWANTED CHANGES.
 - Reload the page.
 - Under "Your Branches", click the branch you just made.
 - Now, if this is not a game, you can simply edit it with the pencil button.
