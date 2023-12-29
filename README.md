@@ -2,17 +2,36 @@
 # Godot installation
 At BluePlay, we make games in Godot (pronounced Go-dot, contrary to popular belief) using the .NET platform, a platform of programming languages made by Microsoft.
 When you first join BluePlay, follow these steps.
-- Install godot at https://godotengine.org/download/windows/ <BR>
-MAKE SURE YOU INSTALL THE .NET VERSION <BR>
+- Get godot from [here](https://godotengine.org/download/windows/)
+
+
+Make sure you get the .NET version.
+
+
 ![.NET version](READMEmedia/godot_dotnet.png)
 - Extract the files, then move to the next step.
 # .NET installation
 .NET SDK version 6.X is needed to develop Godot games. 
-- Install from https://dotnet.microsoft.com/en-us/download/dotnet/6.0 <BR>MAKE SURE TO DOWNLOAD THE 6.X SDK, NOT ANYTHING ELSE<BR>
+- Install from https://dotnet.microsoft.com/en-us/download/dotnet/6.0
+
+Make sure to download the .NET 6 SDK.
+
+
 ![.NET 6 SDK](READMEmedia/dotnet_6.png)
-- If you use Visual Studio, download 6.0 either from the Visual Studio version of the .NET SDK from [here](https://dotnet.microsoft.com/en-us/download/visual-studio-sdks) or through Visual Studio Installer > Visual Studio 2022 > Modify > Individual Components.<br />![Visual Studio 2022 .NET 6 SDK](READMEmedia/dotnet_6_vs.png)
-# Visual Studio Installation (Optional, but highly recommended) 
+
+
+- If you use Visual Studio, download 6.0 either from the Visual Studio version of the .NET SDK from [here](https://dotnet.microsoft.com/en-us/download/visual-studio-sdks)
+
+![Visual Studio 2022 .NET 6 SDK](READMEmedia/dotnet_6_vs.png)
+
+ or through Visual Studio Installer > Visual Studio 2022 > Modify > Individual Components.
+
+![.NET 6 Visual Studio component](READMEmedia/dotnet_6_vs_component.png)
+
+
+# Visual Studio Installation (Optional, but highly recommended)
 - We recommend using Visual Studio while developing with .NET, as Visual Studio was specially designed for .NET and C++ and contains many useful features to speed up development such as IntelliSense and GitHub code snippet finder. Download Visual Studio 2022 from [here](https://visualstudio.microsoft.com/).
+![Visual Studio 2022 Community](READMEmedia/vs_community.png)
 - You can find instructions to use it with Godot [here](https://docs.godotengine.org/en/stable/contributing/development/configuring_an_ide/visual_studio.html). (Note that Visual Studio does _not_ require a solution file, you can select "Open Folder" or "Open .csproj" and it will generate a solution file)
 - Visual Studio's other features like hot reload will also aid you on developing things other than games,  such as .NET MAUI cross-platform applications. If you use Visual Studio for other things, we recommend using .NET 8, but Godot games will use .NET 6. 
 # .NET community
