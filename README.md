@@ -12,7 +12,7 @@ MAKE SURE YOU INSTALL THE .NET VERSION <BR>
 On the repository you would like to contribute to, follow these steps.
 - If this is your first time, Click the button above the code, and right next to the thing that says main, that says _ Branch(es) and click "New Branch"<br>
 - If this is your second time, Click the _ Branch(es) button, and under your branches click a branch. If it says "_ Commits behind" Click that, and create pull request, go to pull requests tab, and merge the pull request.
-<B> If it says "_ Commits ahead, that branch can not be used. Follow "If this is your first time."
+<B> If it says "_ Commit(s) ahead" on this step, that branch can not be used. Follow "If this is your first time."
 - Reload the page. </b>
 - Under "Your Branches", click the branch you just made.
 - Now, if this is not a game, you can simply edit it with the pencil button.
@@ -24,4 +24,4 @@ On the repository you would like to contribute to, follow these steps.
 <b> Once you import the file into godot, hit CTRL+S, delete any old versions, and the original zip file.
 
 - Once you are done editing the game, under project, click export, export as zip, delete every file on your branch, and then upload the zip to your branch.
-
+- Now, it will say "_ commit(s) ahead". Click that, Make a title that says what you did, and a description to go into more detail, and create the pull request.
