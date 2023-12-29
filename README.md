@@ -1,6 +1,6 @@
 <B> If you have any issues following these steps, create an issue under the Issues tab on this repository. </b>
 # Godot installation
-At BluePlay, we make games in Godot (pronounced Gi-Doh) using the .NET platform, a platform of programming languages made by Microsoft.
+At BluePlay, we make games in Godot (pronounced Go-dot, contrary to popular belief) using the .NET platform, a platform of programming languages made by Microsoft.
 When you first join BluePlay, follow these steps.
 - Install godot at https://godotengine.org/download/windows/ <BR>
 MAKE SURE YOU INSTALL THE .NET VERSION <BR>
@@ -11,8 +11,8 @@ MAKE SURE YOU INSTALL THE .NET VERSION <BR>
 - Install from https://dotnet.microsoft.com/en-us/download/dotnet/6.0 <BR>MAKE SURE TO DOWNLOAD THE 6.X SDK, NOT ANYTHING ELSE<BR>
 - If you use Visual Studio, download 6.0 either from the Visual Studio version of the .NET SDK from Microsoft's website or through Visual Studio Installer > Visual Studio 2022 > Modify > Individual Components.
 # Visual Studio Installation (Optional, but highly recommended) 
-- We recommend using Visual Studio while developing with .NET, as Visual Studio was specially designed for .NET and C++ and contains many useful features to speed up development and reuse code from others. Download Visual Studio 2022 from [here](https://visualstudio.microsoft.com/).
-- Visual Studio will also aid you on developing things other than games, such as .NET MAUI cross-platform applications. If you use Visual Studio for other things, we recommend using .NET 8, but Godot games will use .NET 6.
+- We recommend using Visual Studio while developing with .NET, as Visual Studio was specially designed for .NET and C++ and contains many useful features to speed up development such as IntelliSense and GitHub code snippet finder. Download Visual Studio 2022 from [here](https://visualstudio.microsoft.com/).
+- Visual Studio's other features like hot reload will also aid you on developing things other than games,  such as .NET MAUI cross-platform applications. If you use Visual Studio for other things, we recommend using .NET 8, but Godot games will use .NET 6. 
 # .NET community
 - Now that you've installed the .NET SDK, you're a part of the .NET community! We welcome you to start exploring .NET for yourself.
 - npxl32 has previous experience as a .NET developer, so ask them for help if you need it.
