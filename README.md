@@ -106,7 +106,7 @@ Once you import the folder into godot, hit ctrl+s.
 ![push commits](READMEmedia/gh_desktop_push.png)
 
 4. BONUS: if you make a change on GitHub Web, it will not let you push until you pull (what). Select Repository > Pull to do this.
-![pull commits](gh_desktop_pull.png)
+![pull commits](READMEmedia/gh_desktop_pull.png)
 
 5. BONUS BONUS: you might find yourself someday needing to re-trigger a CI action. you would need to make an empty commit for that. you can't do that with GitHub Desktop, unfortunately.
 
