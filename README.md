@@ -43,7 +43,7 @@ Make sure to download the .NET 6 SDK.
 - These languages all compile to a single language called "IL" (Intermediate Language). This is also sometimes called MSIL (Microsoft Intermediate Language). The IL code is then executed through the .NET runtime, which works on all major operating systems. The .NET runtime can either be packaged with your app or installed separately by your users.
 - There are multiple implementations of .NET that have been made. First there was the .NET framework released in 2002. The .NET framework was Windows-only and was composed of VB and C#. Then came Mono, which aimed to create a cross-platform implementation of the .NET framework. Mono worked on Windows, Mac, and Linux, and still exists today as a shadow of its former self. Next came Xamarin which was a company that supported Mono, and created Xamarin.Android (formerly Mono for Android) and Xamarin.iOS (formerly MonoTouch.) After that, there was .NET Core which was an official cross-platform implementation of the .NET framework by Microsoft. Around this time, they also bought Xamarin. Xamarin.Forms is what followed, which was a cross-platform app creation framework that would let you build for Windows, Linux, Android, and even Samsung Tizen and Apple tvOS. Afterwards, Microsoft created .NET MAUI, the evolution of Xamarin.Forms, which adds MacOS and iOS support via MacCatalyst.
 - NuGet is .NET's package manager, which is where you can find libraries to use in your .NET code.
-# Code editing
+# Editing the code
 ## Forking and cloning
 On the repository you would like to contribute to, follow these steps.
 - If this is your first time, click "fork", and fork the repository. 
