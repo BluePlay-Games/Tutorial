@@ -70,6 +70,7 @@ On the repository you would like to contribute to, follow these steps.
 ![Git CLI example](READMEmedia/git_cli_clone.png)
 
 GitHub Desktop example:
+
 ![GitHub Desktop example](READMEmedia/gh_desktop_clone.png)
 5. It  will now have created a directory with the cloned repository in it. If you are on Windows and following along using Git CLI, we recommend opening the directory via the command line to get used to the CLI.
 
