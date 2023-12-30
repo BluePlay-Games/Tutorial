@@ -23,21 +23,29 @@ Make sure to download the .NET 6 SDK.
 
 # Code editing
 ## Forking and cloning
-- If this is your first time, Click the button above the code, and right next to the thing that says main, that says _ Branch(es) and click "New Branch"<br>
-- If this is your second time, Click the _ Branch(es) button, and under your branches click a branch. If it says "_ Commits behind" Click that, and create pull request, go to pull requests tab, and merge the pull request.
-<B> If it says "_ Commit(s) ahead" on this step, that branch can not be used. Follow "If this is your first time."
-- Reload the page. </b>
-- Under "Your Branches", click the branch you just made.
-- Now, if this is not a game, you can simply edit it with the pencil button.
-- If this is a game, click code, then Download Zip
-- Now open Godot, (found in your extracted folder, make sure not to open the "console" version.)
-- Click Import
-- Click the zip file you downloaded.<BR>
+- If this is your first time, click the branches button.
 
-<b> Once you import the file into godot, hit CTRL+S, delete any old versions, and the original zip file.
+![Branches Button](READMEmedia/gh_branches_btn.png)
 
-- Once you are done editing the game, under project, click export, export as zip, delete every file on your branch, and then upload the zip to your branch.
-- Now, it will say "_ commit(s) ahead". Click that, Make a title that says what you did, and a description to go into more detail, and create the pull request.
+- Now type a branch name and click "Create branch from main".
+
+![Branch name](READMEmedia/gh_new_branch.png)
+
+Congrats! You now have created a separate branch.
+
+
+- If this is not your first time, click the same branches button, but this time switch to the branch you already made instead of creating a new one.
+
+![Switch Branch](READMEmedia/gh_switchbranch.png)
+
+- If you ever need to delete a branch, click on the same branches button, but click "view all branches".
+
+![View All Branches](READMEmedia/gh_viewallbranches.png)
+
+- Then, click on the trash button next to the branch you want to delete.
+
+![Trash Branch](READMEmedia/gh_trashbranch.png)
+
 
 ## Editing the code and Git
 - At BluePlay, if you can't tell yet, we use a version control system called Git.
