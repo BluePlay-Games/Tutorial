@@ -12,7 +12,7 @@ Make sure you get the .NET version.
 - Extract the files, then move to the next step.
 # .NET installation
 .NET SDK version 6.X is needed to develop Godot games. 
-- Install from https://dotnet.microsoft.com/en-us/download/dotnet/6.0
+- Install from [here](https://dotnet.microsoft.com/en-us/download/dotnet/6.0). We really recommend learning more about .NET from [dot.net](https://dot.net/), though it is not required.
 
 Make sure to download the .NET 6 SDK.
 
