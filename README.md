@@ -1,4 +1,4 @@
-<B> If you have any issues following these steps, create an issue under the Issues tab on this repository. </b>
+
 # Godot installation
 At BluePlay, we make games in Godot (pronounced Go-dot, contrary to popular belief) using the .NET platform, a platform of programming languages made by Microsoft.
 When you first join BluePlay, follow these steps.
@@ -12,7 +12,7 @@ Make sure you get the .NET version.
 - Extract the files, then move to the next step.
 # .NET installation
 .NET SDK version 6.X is needed to develop Godot games. 
-- Install from https://dotnet.microsoft.com/en-us/download/dotnet/6.0
+- Install from [here](https://dotnet.microsoft.com/en-us/download/dotnet/6.0). We really recommend learning more about .NET from [dot.net](https://dot.net/), though it is not required.
 
 Make sure to download the .NET 6 SDK.
 
@@ -22,25 +22,33 @@ Make sure to download the .NET 6 SDK.
 
 
 # Code editing
-## Forking and cloning
-- If this is your first time, Click the button above the code, and right next to the thing that says main, that says _ Branch(es) and click "New Branch"<br>
-- If this is your second time, Click the _ Branch(es) button, and under your branches click a branch. If it says "_ Commits behind" Click that, and create pull request, go to pull requests tab, and merge the pull request.
-<B> If it says "_ Commit(s) ahead" on this step, that branch can not be used. Follow "If this is your first time."
-- Reload the page. </b>
-- Under "Your Branches", click the branch you just made.
-- Now, if this is not a game, you can simply edit it with the pencil button.
-- If this is a game, click code, then Download Zip
-- Now open Godot, (found in your extracted folder, make sure not to open the "console" version.)
-- Click Import
-- Click the zip file you downloaded.<BR>
+## Maintaining a branch
+- If this is your first time, click the branches button.
 
-<b> Once you import the file into godot, hit CTRL+S, delete any old versions, and the original zip file.
+![Branches Button](READMEmedia/gh_branches_btn.png)
 
-- Once you are done editing the game, under project, click export, export as zip, delete every file on your branch, and then upload the zip to your branch.
-- Now, it will say "_ commit(s) ahead". Click that, Make a title that says what you did, and a description to go into more detail, and create the pull request.
+- Now type a branch name and click "Create branch from main".
+
+![Branch name](READMEmedia/gh_new_branch.png)
+
+Congrats! You now have created a separate branch. 
+
+
+- If this is not your first time, click the same branches button, but this time switch to the branch you already made instead of creating a new one.
+
+![Switch Branch](READMEmedia/gh_switchbranch.png)
+
+- If you ever need to delete a branch, click on the same branches button, but click "view all branches".
+
+![View All Branches](READMEmedia/gh_viewallbranches.png)
+
+- Then, click on the trash button next to the branch you want to delete.
+
+![Trash Branch](READMEmedia/gh_trashbranch.png)
+
 
 ## Editing the code and Git
-- At BluePlay, if you can't tell yet, we use a version control system called Git.
+- At BluePlay, if you can't tell yet, we use a distributed version control system called Git. It works by tracking changes made to files. There are also other distributed version control systems that exist, like Mercurial, Darcs and Azure DevOps. There are also non-distributed version control systems like Perforce, Subversion, and CVS. Additionally, there are even local only version control systems like RCS, SCCS, and The Librarian. Read more [here](https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control).<!--Seriously don't delete this, it's extremely important to know what the software you're using does on a high level. You shouldn't have deleted the part about .NET either, you should probably re-add that with some omitted parts-->
 - On Git, forking a repository is when you create your own duplicate to make your own changes.
 - On Git, a commit is a change to the files.
 - On Git, a pull request (aka PR, or MR/Merge Request on GitLab) is when you request code from your fork to be merged with the original repository.
@@ -51,11 +59,14 @@ Make sure to download the .NET 6 SDK.
 - At BluePlay, we recommend you use GitHub Desktop or Git CLI (not to be confused with GitHub CLI) to edit your code with bigger commits. The difference is that GitHub Desktop is GitHub only, while Git CLI works with any Git service (like GitHub, GitLab, and Bitbucket), and that you'll have to know how to use a command line to use Git CLI.
 - To edit the code: follow these steps:
 
-1. Go into your fork of the repository on GitHub. 
+1. Go into the repository on GitHub. 
 2. If this is a small commit, like a change to a README, you can use the pencil button on the GitHub view of your repository. 
 3. If this is a game, and you haven't cloned it yet, click the green code button.
+
 ![GitHub Code Button](READMEmedia/github_code_button.png)
+
 4. Clone it using GitHub Desktop or Git CLI with the URL it gives you. Git CLI example: 
+
 ![Git CLI example](READMEmedia/git_cli_clone.png)
 
 GitHub Desktop example (File > Clone Repository):
@@ -64,13 +75,26 @@ GitHub Desktop example (File > Clone Repository):
 
 ![Select My Own Purposes](READMEmedia/gh_desktop_myownpurposes_img.png)
 
-5. It  will now have created a directory with the cloned repository in it. If you are on Windows and following along using Git CLI, we recommend opening the directory via the command line to get used to the CLI. You can do this by using "explorer" as if it were a command.
+5. It will now have created a directory with the cloned repository in it. If you are following along on Git CLI, you will only have cloned the main branch. Follow these steps to create your own branch:
+- Switch your command line into the directory of the cloned repository with the CD command
+- Type "git checkout -b &lt;your_branch_name&gt;"
+- Type "git pull origin &lt;your_branch_name&gt;"
+
+![Git Checkout Pull](READMEmedia/git_switchbranch.png)
+
+Woah! That's a lot. What does that mean?
+
+Firstly, CD will change the directory you are working in.
+Second, git checkout -b &lt;branch_name&gt; will create a branch on your local repository.
+Third, git pull origin &lt;branch_name&gt; will update your local copy of the branch with the commits from the remote.
+
+6. If you are on Windows and following along using Git CLI, we recommend opening the directory via the command line to get used to the CLI. You can do this by using "explorer" as if it were a command.
 
 ![Open Explorer through the CLI](READMEmedia/git_cli_switchdir.png)
 
 ![Cloned repository in Windows Explorer](READMEmedia/explorer_cloned_repository.png)
 
-If you are on GitHub Desktop, you can navigate to the created folder normally and open the code in your favorite text editor or IDE.
+If you are on GitHub Desktop, you can switch to your branch using the menu above and then navigate to the folder created from cloning the repository and open the code in your favorite text editor or IDE.
 
 Once it is done, you can now edit the code and push the changes to the remote repository using Git!
 Now that you've got a local copy of the remote repository, open it in Godot:
@@ -84,9 +108,10 @@ Now that you've got a local copy of the remote repository, open it in Godot:
 Once you import the folder into godot, hit ctrl+s.
 - Once you are done editing the game, use GitHub Desktop or the Git CLI to push your changes to your fork. Here is a tutorial for Git CLI:
 1. Change to the directory that the repository is in with the "CD" command. (The equivalent of double-clicking a folder in explorer)
-2. Add all files to the commit with "git add --all".
-3. Actually do the commit with "git commit -m [commit message here]".
-4. Push the commit with "git push". (This step will make the commits appear on GitHub)
+2. Switch to your branch with "git checkout -b &lt;your_branch&gt;"
+3. Add all files to the commit with "git add --all".
+4. Actually do the commit with "git commit -m [commit message here]".
+5. Push the commit with "git push origin &lt;your_branch&gt;". (This step will make the commits appear on GitHub)
 ![Git Add Commit Push](READMEmedia/git_add_commit_push.png)
 5. BONUS: if you make a change on GitHub, it will not let you push until you pull (what). Type "git pull" to do this.
 6. BONUS BONUS: if you need to make an empty commit, type "git commit -m [commit message here] --allow-empty" instead of "git commit -m [commit message here]".
