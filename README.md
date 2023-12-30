@@ -1,4 +1,4 @@
-<b style="font-size: 32px";> If you have any issues following these steps, create an issue under the Issues tab on this repository. </b>
+
 # Godot installation
 At BluePlay, we make games in Godot (pronounced Go-dot, contrary to popular belief) using the .NET platform, a platform of programming languages made by Microsoft.
 When you first join BluePlay, follow these steps.
