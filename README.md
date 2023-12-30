@@ -22,7 +22,7 @@ Make sure to download the .NET 6 SDK.
 
 
 # Code editing
-## Forking and cloning
+## Maintaining a branch
 - If this is your first time, click the branches button.
 
 ![Branches Button](READMEmedia/gh_branches_btn.png)
@@ -31,7 +31,7 @@ Make sure to download the .NET 6 SDK.
 
 ![Branch name](READMEmedia/gh_new_branch.png)
 
-Congrats! You now have created a separate branch.
+Congrats! You now have created a separate branch. 
 
 
 - If this is not your first time, click the same branches button, but this time switch to the branch you already made instead of creating a new one.
