@@ -19,7 +19,24 @@ Make sure to download the .NET 6 SDK.
 
 ![.NET 6 SDK](READMEmedia/dotnet_6.png)
 
+- If you use Visual Studio, download 6.0 either from the Visual Studio version of the .NET SDK from [here](https://dotnet.microsoft.com/en-us/download/visual-studio-sdks)
 
+![Visual Studio 2022 .NET 6 SDK](READMEmedia/dotnet_6_vs.png)
+
+- or through Visual Studio Installer > Visual Studio 2022 > Modify > Individual Components.
+![Visual Studio Installer](READMEmedia/dotnet_6_vs_component.png)
+
+
+
+# Visual Studio Installation (Optional) 
+- Feel free to skip this section and develop with Godot's text editor - however, it really will make your life easier to use Visual Studio.
+- We recommend using Visual Studio while developing with .NET, as Visual Studio was specially designed for .NET and C++ and contains many useful features to speed up development and reuse code from others. Download Visual Studio 2022 from [here](https://visualstudio.microsoft.com/).
+- - You can find instructions to use it with Godot [here](https://docs.godotengine.org/en/stable/contributing/development/configuring_an_ide/visual_studio.html). (Note that Visual Studio does _not_ require a solution file, you can select "Open Folder" or "Open .csproj" and it will generate a solution file)
+- Visual Studio will also aid you on developing things other than games, such as .NET MAUI cross-platform applications. If you use Visual Studio for other things, we recommend using .NET 8, but Godot games will use .NET 6.
+# .NET important things to know
+Now that you've installed the .NET SDK, you're a part of the .NET community! Here are some important things to know:
+- .NET is _not_ a programming language. It is a platform of programming languages, like C# and VB, that all compile to a language called "IL". This IL code is then run through the .NET runtime, which works on all operating systems.
+- If you ever see the words "Mono", "MonoTouch", or "Mono for Android", that's because .NET used to be only for Windows and it was called the .NET framework back then, and Mono was an implementation for all platforms. Since those times, the newer .NET versions are also for all platforms, but a lot of software, like Unity, still uses Mono.
 
 # Code editing
 ## Maintaining a branch
