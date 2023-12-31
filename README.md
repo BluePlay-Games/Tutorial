@@ -104,6 +104,7 @@ Woah! That's a lot. What does that mean?
 Firstly, CD will change the directory you are working in.
 Second, git checkout -b &lt;branch_name&gt; will create a branch on your local repository.
 Third, git pull origin &lt;branch_name&gt; will update your local copy of the branch with the commits from the remote.
+BONUS: should you need to switch branches instead of creating new ones on the Git CLI, use "git switch &lt;branch_name&gt;".
 
 6. If you are on Windows and following along using Git CLI, we recommend opening the directory via the command line to get used to the CLI. You can do this by using "explorer" as if it were a command.
 
