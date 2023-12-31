@@ -19,7 +19,14 @@ Make sure to download the .NET 6 SDK.
 
 ![.NET 6 SDK](READMEmedia/dotnet_6.png)
 
-- If you use Visual Studio, download 6.0 either from the Visual Studio version of the .NET SDK from [here](https://dotnet.microsoft.com/en-us/download/visual-studio-sdks) or through Visual Studio Installer > Visual Studio 2022 > Modify > Individual Components.<br />![Visual Studio 2022 .NET 6 SDK](READMEmedia/dotnet_6_vs.png)
+- If you use Visual Studio, download 6.0 either from the Visual Studio version of the .NET SDK from [here](https://dotnet.microsoft.com/en-us/download/visual-studio-sdks)
+
+![Visual Studio 2022 .NET 6 SDK](READMEmedia/dotnet_6_vs.png)
+
+- or through Visual Studio Installer > Visual Studio 2022 > Modify > Individual Components.
+![Visual Studio Installer](READMEmedia/dotnet_6_vs_component.png)
+
+
 
 # Visual Studio Installation (Optional) 
 - Feel free to skip this section and develop with Godot's text editor - however, it really will make your life easier to use Visual Studio.
