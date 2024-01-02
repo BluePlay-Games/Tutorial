@@ -30,8 +30,8 @@ Make sure to download the .NET 6 SDK.
 
 # Visual Studio Installation (Optional) 
 - Feel free to skip this section and develop with Godot's text editor - however, it really will make your life easier to use Visual Studio.
-- We recommend using Visual Studio while developing with .NET, as Visual Studio was specially designed for .NET and C++ and contains many useful features to speed up development and reuse code from others. Download Visual Studio 2022 from [here](https://visualstudio.microsoft.com/).
-- - You can find instructions to use it with Godot [here](https://docs.godotengine.org/en/stable/contributing/development/configuring_an_ide/visual_studio.html). (Note that Visual Studio does _not_ require a solution file, you can select "Open Folder" or "Open .csproj" and it will generate a solution file)
+- We recommend using Visual Studio while developing with .NET, as Visual Studio was specially designed for .NET and C++ and contains many useful features to speed up development like the powerful debugger and hot reload. Download Visual Studio 2022 from [here](https://visualstudio.microsoft.com/).
+- To use it with a Godot project, open that Godot project, and hit Project > Tools > C# > Create C# Solution.
 - Visual Studio will also aid you on developing things other than games, such as .NET MAUI cross-platform applications. If you use Visual Studio for other things, we recommend using .NET 8, but Godot games will use .NET 6.
 # .NET important things to know
 if you see error and google no work, ask nonpixl. if that no work, make stack overflow or other forum account
